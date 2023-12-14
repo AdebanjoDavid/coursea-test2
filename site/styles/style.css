@@ -1,0 +1,236 @@
+p{
+    font-family: arial;
+}
+.new{
+    font-size: 13px;
+    color:red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mac{
+    font-size: 20px;
+    font-weight:bold ;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom:10px ;
+}
+.pros{
+    font-size: 30px;
+    font-weight:bold ;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+.price{
+    font-size: 15px;
+    font-weight:normal ;
+    text-align: center;
+    margin-top: 0%;
+    color: grey;
+}
+.buy{
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#container{
+    text-align: center;
+}
+.cp{
+font-size: 28px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.usd{
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
+}
+.change{
+    color: green;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.pred{
+    color: gray;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.decrease{
+    color: red;
+    margin-top: 0px;
+    margin-bottom:0px ;
+    
+}
+.bt2{
+    background-color: rgb(255, 216, 20);
+    border: none;  
+    border-radius: 12.5px;
+   padding-left: 15px;
+   padding-top: 10px;
+   padding-right: 15px;
+   padding-bottom: 10px;
+   vertical-align: top;
+    cursor: pointer;
+    transition: opacity 0.5s, background-color 0.5s, color 0.5s, padddin-left 0.5s, padding-right 0.2s, padding-top 0.3s, padding-bottom 0.4s;
+  }
+  .bt1{
+    background-color: rgb(255, 164, 28);
+    border: none;  
+    border-radius: 12.5px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    margin-right:8px ;
+    transition: opacity 0.5s, background-color 0.5s, color 0.5s, padddin-left 0.5s, padding-right 0.2s, padding-top 0.3s, padding-bottom 0.4s;
+  }
+  .bt1:hover{
+    background-color: rgba(247, 152, 10, 0.795) ;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+
+  }
+  .bt1:active{
+    opacity: 0.5;
+  }
+  .bt2:hover{
+   color:  rgba(248, 208, 5, 0.849);
+   color: aliceblue;
+   padding-left: 20px;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+  }
+  .bt2:active{
+    opacity: 0.5;
+  }
+  a{
+    color:rgb( 0, 113, 133);
+  }
+ .name{
+   width: 100px;
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-color: grey;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+ } 
+ .email{
+   margin-top: 10px;
+   width: 187px;
+   padding-left: 20px;
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   border-color: grey;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+ }
+.btn{
+  width: 230px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  background-color: blue;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+.btn:hover{
+ opacity: 0.6;  
+} 
+
+ .container{
+  margin-left: 10px;
+  width: 250px;
+  border: solid whitesmoke 0px; 
+  box-shadow: 5px 5px 10px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ }
+ .profile{
+  margin-left: 10px;
+  width: 100%;
+  border: solid whitesmoke 0px; 
+  box-shadow: 5px 5px 10px;
+  display: inline-block;
+ }
+ .dp{
+  width: 100%;
+  margin-bottom: 0px;
+  padding-right: 5px;
+  margin-right: 10pxpx;
+ }
+ .names{
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+ }
+ .mutual{
+  font-size: 13px;
+  color: grey;
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-bottom: 9px;
+ }
+ .add{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  background-color: blue;
+  font-weight: bold;
+  transition: opacity 0.2s;
+  vertical-align: top;
+ }
+ .add:hover{
+  opacity: 0.5;
+ }
+ .bigc{
+  margin-left: 10px;
+  border: solid rgb(48, 5, 238) 0px; 
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+ }
