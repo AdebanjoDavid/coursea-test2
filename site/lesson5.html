@@ -1,20 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lesson5</title>
-	<link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <p class="new">New</p>
-    <p class="mac">MacBook pro</p>
-    <p class="pros">Supercharged for pros</p>
-    <p class="price">from $1999 </p>
-		<div id="container"><button class="buy">Buy</button></div>
-		<p class="cp">1,049.61 <span class="usd">USD</span></p>
-		<p class="change">&#43; 18.05(1.75%) today</p>
-		<p class="pred">after hours 1048.00 <span class="decrease" -1.61(0.15)>-1.61(0.15&#37;)</span></p>
-</body>
-</html>
+<html>
+  <head>
+    <link rel="stylesheet" href="12g.css">
+    <style>
+        p {
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+          
+          .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+          }
+          
+          .profile-picture {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 15px;
+          }
+          
+       
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <img class="profile-picture" src="image/image2.jpg">
+      <div class="info">
+        <p class="name">oliver</p>
+        <p class="handle">the cat</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
 
+    <div class="row">
+      <img class="profile-picture" src="cat2.jpg">
+      <div class="info">
+        <p class="name">Mimi</p>
+        <p class="handle">Sleepy Cat</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+
+    <div class="row">
+      <img class="profile-picture" src="dog.jpg">
+      <div class="info">
+        <p class="name">Rex</p>
+        <p class="handle">Happy Bulldog</p>
+        <p class="category">Popular</p>
+      </div>
+      <button class="follow-button">Follow</button>
+    </div>
+  </body>
+</html>
